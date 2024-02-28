@@ -7,10 +7,10 @@ public class Twitter {
     Map<Integer, Set<Integer>> followeeIDs = new HashMap();
     static int timeStamp = 0;
     class Tweet implements Comparable<Tweet>{
-        int tweetID;
+        int tweetid;
         int timeStamp;
-        Tweet(int tweetID, int timeStamp) {
-            this.tweetID = tweetID;
+        Tweet(int tweetid, int timeStamp) {
+            this.tweetID = tweetid;
             this.timeStamp =  timeStamp;
         }
         @Override
