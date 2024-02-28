@@ -10,7 +10,7 @@ public class Twitter {
         int tweetid;
         int timeStamp;
         Tweet(int tweetid, int timeStamp) {
-            this.tweetID = tweetid;
+            this.tweetid = tweetid;
             this.timeStamp =  timeStamp;
         }
         @Override
@@ -53,7 +53,7 @@ public class Twitter {
         }
         int[] res = new int[temp.size()];
         for(int i = temp.size()-1; i >=0; i--)
-            res[i] = temp.poll().tweetID;
+            res[i] = temp.poll().tweetid;
         return Arrays.stream(res).boxed().toList();
     }
 
