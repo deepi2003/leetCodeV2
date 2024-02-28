@@ -12,6 +12,7 @@ public class ArraysExcercise {
 
         while(num1Index < m ) {
                 if(nums1[num1Index] > nums2[num2Index]) {
+                    System.out.println("nums1 = " + Arrays.toString(nums1) + ", m = " + m + ", nums2 = " + Arrays.toString(nums2) + ", n = " + n);
                     int temp = nums1[num1Index];
                     nums1[num1Index] = nums2[num2Index];
                     nums2[num2Index] = temp;
